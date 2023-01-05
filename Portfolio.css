@@ -1,0 +1,78 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    background-image: url("image/Capture.PNG");
+    background-size: 100%;
+}
+
+.menu li:hover
+{
+    background-color: #7441ae;
+}
+
+.menu
+{
+    display: flex;
+    font-family: 'Exo', sans-serif;
+    justify-content: right;
+}
+
+.menu li
+{
+    list-style-type: none;
+    padding: 20px;
+    border-right: 2px solid coral;
+    min-width: 150px;
+    text-align: center;
+}
+
+.menu li a
+{
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 30px;
+}
+
+h2
+{
+    color: #ff463d;
+    position: absolute;
+    padding-left: 875px;
+    margin-top: 370px;
+    font-size: 55px;
+    font-family: 'Rubik', sans-serif;
+}
+
+h1
+{
+    color: white;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 220px;
+    font-size: 85px;
+    font-family: 'Rubik', sans-serif;
+    border-bottom: 4px solid #ff463d;
+    border-radius: 10px;
+}
+
+.info
+{
+    color: white;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 520px;
+    font-size: 30px;
+    font-family: 'Rubik', sans-serif;
+    border-bottom: 4px solid #ff463d;
+    border-radius: 10px;
+}
+
+
+
+
+
